@@ -1,0 +1,13 @@
+extentx:
+  build: .
+  environment:
+    - MONGODB_PORT_27017_TCP_ADDR=mongo 
+  links:
+    - mongo:mongo
+  ports:
+    - 1337:1337
+    
+mongo:
+  image: mongo
+  ports: 
+    - 27017:27017
