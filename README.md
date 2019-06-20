@@ -5,7 +5,7 @@ A docker implementation of [ExtentX](https://github.com/anshooarora/extentx).
 
 
 ## Installation
-1. Clone this repository
+1. Clone this repository (https://github.com/Ashish88sdet/ReportServer/)
 2. Go to Report Server folder
 3. Install [Docker](https://www.docker.com/) with Docker Compose
 4. pull mongo image from docker(docker pull mongo).
